@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_8sdp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/descarga1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="fill"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="@dimen/_15sdp"
+        tools:ignore="InefficientWeight" />
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_8sdp"
+    app:cardElevation="@dimen/_8sdp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Titulo"
+                android:inputType="textPersonName"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/contenido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Contenido"
+                android:inputType="textMultiLine"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/fecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Finaliza(dd/MM/yyyy)"
+                android:inputType="date"
+                android:textColorHint="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>
